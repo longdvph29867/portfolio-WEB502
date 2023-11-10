@@ -1,13 +1,15 @@
 
 body {
-  color: #e8eaed;
-  background: #35363a;
+  color: #000;
+  /* background: #35363a; */
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: system-ui, sans-serif;
+  background-image: url(./assets/bg.jpeg);
+  background-size: cover;
 }
 img {
   width: 100%;
@@ -18,7 +20,7 @@ img {
 }
 
 svg {
-  fill: #e8eaed;
+  fill: #646cff;
   transition: all .3s;
 }
 a {
